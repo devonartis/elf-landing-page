@@ -14,7 +14,7 @@ export const team = [
   {
     file: 'mariano_conti.jpg',
     name: 'Mariano Conti',
-    twitter: 'nanoexcool',
+    twitter: 'nanexcool',
     role: 'Former Head of Smart Contracts @ Maker Foundation',
   },
   {
