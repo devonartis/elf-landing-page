@@ -10,19 +10,19 @@ export const team = [
     file: 'will.jpeg',
     name: 'Will Villanueva',
     twitter: 'wjvill',
-    role: 'Chief Executive Officer',
+    role: 'CEO & Co-Founder',
   },
   {
     file: 'jonny.jpg',
     name: 'Jonny Rhea',
     twitter: 'JonnyRhea',
-    role: 'Chief Technology Officer',
+    role: 'CTO & Co-Founder',
   },
   {
     file: 'charles.jpeg',
     name: 'Charles St.Louis',
     twitter: 'CharlieStLouis',
-    role: 'Chief Operating Officer',
+    role: 'COO',
   },
   {
     file: 'windra.jpg',
