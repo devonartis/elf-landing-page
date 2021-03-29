@@ -39,7 +39,7 @@ export const team = [
   {
     file: 'matt.jpg',
     name: 'Matt Brown',
-    twitter: 'mattfdbrown',
+    twitter: 'sentilesdal',
     role: 'Senior Full-Stack Engineer',
   },
   {
