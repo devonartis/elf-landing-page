@@ -31,7 +31,9 @@ export function Investors() {
             <Flex sx={{ flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-evenly' }}>
               {rowOne.map(({ investor, url, ...rest }, idx) => (
                 <Grid key={idx} sx={{ maxWidth: '250px', minWidth: '90px' }} m={4}>
-                  <Link href={url} target="_blank"><Image {...{ src: `/investors/${investor}`, ...rest }} /></Link>
+                  <Link href={url} target="_blank">
+                    <Image {...{ src: `/investors/${investor}`, ...rest }} />
+                  </Link>
                 </Grid>
               ))}
             </Flex>
@@ -43,7 +45,9 @@ export function Investors() {
             >
               {rowOne.map(({ investor, url, ...rest }, idx) => (
                 <Grid key={idx} sx={{ maxWidth: '250px', minWidth: '90px' }} m={4}>
-                  <Link href={url} target="_blank"><Image {...{ src: `/investors/${investor}`, ...rest }} /></Link>
+                  <Link href={url} target="_blank">
+                    <Image {...{ src: `/investors/${investor}`, ...rest }} />
+                  </Link>
                 </Grid>
               ))}
             </Grid>
