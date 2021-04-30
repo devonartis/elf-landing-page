@@ -74,7 +74,7 @@ const icons = {
         />
       </>
     ),
-    viewBox: '0 0 206 69',
+    viewBox: "0 0 206 69",
   },
   twitter: {
     path: (
@@ -87,7 +87,7 @@ const icons = {
         fill="white"
       />
     ),
-    viewBox: '0 0 24 24',
+    viewBox: "0 0 24 24",
   },
   twitterSolid: {
     path: (
@@ -96,7 +96,7 @@ const icons = {
         d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"
       ></path>
     ),
-    viewBox: '0 0 24 24',
+    viewBox: "0 0 24 24",
   },
 
   discord: {
@@ -112,7 +112,7 @@ const icons = {
         />
       </>
     ),
-    viewBox: '0 0 245 240',
+    viewBox: "0 0 245 240",
   },
 
   telegram: {
@@ -128,7 +128,7 @@ const icons = {
         />
       </>
     ),
-    viewBox: '0 0 24 24',
+    viewBox: "0 0 24 24",
   },
 
   medium: {
@@ -144,7 +144,23 @@ const icons = {
         />
       </>
     ),
-    viewBox: '0 0 24 24',
+    viewBox: "0 0 24 24",
+  },
+
+  github: {
+    path: (
+      <>
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          strokeLinejoin="round"
+          strokeMiterlimit="1.41421"
+          fill="currentColor"
+          d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"
+        />
+      </>
+    ),
+    viewBox: "0 0 24 24",
   },
 
   close: {
@@ -166,35 +182,35 @@ const icons = {
         />
       </>
     ),
-    viewBox: '0 0 24 24',
+    viewBox: "0 0 24 24",
   },
-}
+};
 
 export const theme = {
   useBorderBox: true,
   useBodyStyles: true,
-  breakpoints: ['640px', '1024px'],
+  breakpoints: ["640px", "1024px"],
 
   colors: {
-    background: '#ffffff',
+    background: "#ffffff",
 
-    primary: '#1568CA',
-    primaryAlt: '7FBEEA',
+    primary: "#1568CA",
+    primaryAlt: "7FBEEA",
 
-    heading: '#1A2B4F',
-    text: '#314255',
-    textAlt: '#1A2B3F',
+    heading: "#1A2B4F",
+    text: "#314255",
+    textAlt: "#1A2B3F",
 
-    success: '#9AE0BF',
-    onSuccess: '19C2A3',
+    success: "#9AE0BF",
+    onSuccess: "19C2A3",
 
-    error: '#F73030',
-    onError: 'F64040',
+    error: "#F73030",
+    onError: "F64040",
 
-    muted: '#B0B0B0',
-    onMuted: '#E3E5E6',
+    muted: "#B0B0B0",
+    onMuted: "#E3E5E6",
 
-    twitter: '#0EADE0',
+    twitter: "#0EADE0",
   },
 
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
@@ -208,7 +224,7 @@ export const theme = {
   fonts: {
     body: '"Inter", sans-serif',
     alt: '"Rubik", sans-serif',
-    monospace: 'monospace',
+    monospace: "monospace",
   },
   fontWeights: {
     body: 400,
@@ -219,89 +235,101 @@ export const theme = {
 
   text: {
     heading: {
-      fontFamily: 'alt',
-      fontWeight: 'heading',
+      fontFamily: "alt",
+      fontWeight: "heading",
       fontSize: 6,
-      color: 'heading',
+      color: "heading",
     },
     text: {
       fontSize: 2,
-      color: 'text',
+      color: "text",
+    },
+    h2: {
+      variant: "text.heading",
+      fontSize: 5,
+    },
+    h3: {
+      variant: "text.heading",
+      fontSize: 4,
+    },
+    h4: {
+      variant: "text.heading",
+      fontSize: 3,
     },
     subHeading: {
-      variant: 'text.heading',
+      variant: "text.heading",
       fontSize: 3,
-      fontWeight: 'body',
+      fontWeight: "body",
     },
   },
   shadows: {
     light:
-      '0px 36px 80px rgba(7, 27, 95, 0.05), 0px 15.0399px 33.4221px rgba(7, 27, 95, 0.0359427), 0px 8.04107px 17.869px rgba(7, 27, 95, 0.0298054), 0px 4.50776px 10.0172px rgba(7, 27, 95, 0.025), 0px 2.39404px 5.32008px rgba(7, 27, 95, 0.0201946), 0px 0.996212px 2.21381px rgba(7, 27, 95, 0.0140573);',
+      "0px 36px 80px rgba(7, 27, 95, 0.05), 0px 15.0399px 33.4221px rgba(7, 27, 95, 0.0359427), 0px 8.04107px 17.869px rgba(7, 27, 95, 0.0298054), 0px 4.50776px 10.0172px rgba(7, 27, 95, 0.025), 0px 2.39404px 5.32008px rgba(7, 27, 95, 0.0201946), 0px 0.996212px 2.21381px rgba(7, 27, 95, 0.0140573);",
   },
 
   buttons: {
     email: {
       px: 3,
-      py: '18px',
-      cursor: 'pointer',
-      outline: 'none',
-      fontFamily: 'alt',
-      fontWeight: 'semiBold',
-      lineHeight: '19px',
-      bg: 'error',
-      borderRadius: 'round',
-      '&:disabled': {
-        opacity: '50%',
-        pointerEvents: 'none',
+      py: "18px",
+      cursor: "pointer",
+      outline: "none",
+      fontFamily: "alt",
+      fontWeight: "semiBold",
+      lineHeight: "19px",
+      bg: "error",
+      borderRadius: "round",
+      "&:disabled": {
+        opacity: "50%",
+        pointerEvents: "none",
       },
     },
   },
 
   forms: {
     input: {
-      outline: 'none',
+      outline: "none",
       px: 0,
-      py: '18px',
-      border: 'none',
-      fontFamily: 'alt',
-      fontWeight: 'body',
-      lineHeight: '19px',
-      color: 'muted',
-      '&::placeholder': {
-        color: 'muted',
+      py: "18px",
+      border: "none",
+      fontFamily: "alt",
+      fontWeight: "body",
+      lineHeight: "19px",
+      color: "muted",
+      "&::placeholder": {
+        color: "muted",
       },
     },
   },
 
   links: {
     nav: {
-      cursor: 'pointer',
-      textDecoration: 'none',
-      outline: 'none',
+      cursor: "pointer",
+      textDecoration: "none",
+      outline: "none",
     },
   },
   layout: {
     container: {
-      maxWidth: '1000px',
+      maxWidth: "1000px",
     },
     header: {
-      maxWidth: '1440px',
+      maxWidth: "1440px",
     },
     footer: {
-      maxWidth: '1440px',
+      maxWidth: "1440px",
     },
   },
   icons,
   styles: {
     root: {
-      fontFamily: 'body',
-      fontWeight: 'body',
+      fontFamily: "body",
+      fontWeight: "body",
       fontSize: 2,
     },
     a: {
-      color: 'primary',
-      textDecoration: 'none',
-      cursor: 'pointer',
+      color: "primary",
+      textDecoration: "none",
+      cursor: "pointer",
     },
   },
-}
+};
